@@ -1,0 +1,279 @@
+{
+  "title": {
+    "ar": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "إشعار مهم"
+      }
+    },
+    "da": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Vigtig meddelelse"
+      }
+    },
+    "de": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Wichtige Mitteilung"
+      }
+    },
+    "en": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Important Notice"
+      }
+    },
+    "es": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Aviso importante"
+      }
+    },
+    "fi": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Tärkeä ilmoitus"
+      }
+    },
+    "fr": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Avis important"
+      }
+    },
+    "hi": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "महत्वपूर्ण सूचना"
+      }
+    },
+    "it": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Avviso importante"
+      }
+    },
+    "ja": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "重要なお知らせ"
+      }
+    },
+    "ko": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "중요 공지"
+      }
+    },
+    "nb": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Viktig melding"
+      }
+    },
+    "nl": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Belangrijke mededeling"
+      }
+    },
+    "pl": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Ważne ogłoszenie"
+      }
+    },
+    "pt": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Aviso importante"
+      }
+    },
+    "ru": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Важное уведомление"
+      }
+    },
+    "sv": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Viktigt meddelande"
+      }
+    },
+    "th": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "ประกาศสำคัญ"
+      }
+    },
+    "tr": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Önemli duyuru"
+      }
+    },
+    "vi": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Thông báo quan trọng"
+      }
+    },
+    "zh-Hans": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "重要通知"
+      }
+    },
+    "zh-Hant": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "重要通知"
+      }
+    }
+  },
+  "content": {
+    "ar": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "هذا مثال على الإعلان الأول. يمكنك إضافة محتوى الإعلان هنا."
+      }
+    },
+    "da": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Dette er det første meddelelseeksempel. Du kan tilføje meddelelsesindhold her."
+      }
+    },
+    "de": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Dies ist das erste Ankündigungsbeispiel. Sie können hier Ankündigungsinhalte hinzufügen."
+      }
+    },
+    "en": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "This is the first announcement example. You can add announcement content here."
+      }
+    },
+    "es": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Este es el primer ejemplo de anuncio. Puedes agregar contenido del anuncio aquí."
+      }
+    },
+    "fi": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Tämä on ensimmäinen ilmoitusesimerkki. Voit lisätä ilmoitussisällön tähän."
+      }
+    },
+    "fr": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Ceci est le premier exemple d'annonce. Vous pouvez ajouter le contenu de l'annonce ici."
+      }
+    },
+    "hi": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "यह पहला घोषणा उदाहरण है। आप यहां घोषणा सामग्री जोड़ सकते हैं।"
+      }
+    },
+    "it": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Questo è il primo esempio di annuncio. Puoi aggiungere il contenuto dell'annuncio qui."
+      }
+    },
+    "ja": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "これは最初のアナウンス例です。ここにアナウンス内容を追加できます。"
+      }
+    },
+    "ko": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "이것은 첫 번째 공지 예제입니다. 여기에 공지 내용을 추가할 수 있습니다."
+      }
+    },
+    "nb": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Dette er det første meldingseksemplet. Du kan legge til meldingsinnhold her."
+      }
+    },
+    "nl": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Dit is het eerste aankondigingsvoorbeeld. U kunt hier aankondigingsinhoud toevoegen."
+      }
+    },
+    "pl": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "To jest pierwszy przykład ogłoszenia. Możesz tutaj dodać treść ogłoszenia."
+      }
+    },
+    "pt": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Este é o primeiro exemplo de anúncio. Você pode adicionar conteúdo do anúncio aqui."
+      }
+    },
+    "ru": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Это первый пример объявления. Вы можете добавить содержимое объявления здесь."
+      }
+    },
+    "sv": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Detta är det första meddelandeexemplet. Du kan lägga till meddelandeinnehåll här."
+      }
+    },
+    "th": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "นี่คือตัวอย่างประกาศแรก คุณสามารถเพิ่มเนื้อหาประกาศได้ที่นี่"
+      }
+    },
+    "tr": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Bu ilk duyuru örneğidir. Duyuru içeriğini buraya ekleyebilirsiniz."
+      }
+    },
+    "vi": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Đây là ví dụ thông báo đầu tiên. Bạn có thể thêm nội dung thông báo ở đây."
+      }
+    },
+    "zh-Hans": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "这是第一个公告示例。你可以在这里添加公告内容。"
+      }
+    },
+    "zh-Hant": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "這是第一個公告範例。你可以在這裡新增公告內容。"
+      }
+    }
+  },
+  "author": {
+    "en": {
+      "stringUnit": {
+        "state": "translated",
+        "value": "Swift Craft Team"
+      }
+    }
+  }
+}
+
