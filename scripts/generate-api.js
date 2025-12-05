@@ -7,17 +7,6 @@ const supportedLanguages = [
   'nb', 'nl', 'pl', 'pt', 'ru', 'sv', 'th', 'tr', 'vi', 'zh-Hans', 'zh-Hant'
 ];
 
-// 从 Xcode 格式提取值的辅助函数
-function extractValue(langObj) {
-  if (!langObj) return '';
-  if (typeof langObj === 'string') return langObj;
-  if (langObj.stringUnit && langObj.stringUnit.value) {
-    return langObj.stringUnit.value;
-  }
-  if (langObj.value) return langObj.value;
-  return '';
-}
-
 // 根据版本号和语言获取公告内容
 function getAnnouncement(version, lang) {
   const newsDir = path.join(__dirname, '..', 'news');
@@ -35,19 +24,23 @@ function getAnnouncement(version, lang) {
     const content = fs.readFileSync(filePath, 'utf-8');
     const announcement = JSON.parse(content);
 
-    // 根据语言筛选对应的内容
-    const title = extractValue(announcement.title?.[lang] || announcement.title);
-    const contentText = extractValue(announcement.content?.[lang] || announcement.content);
-    const author = extractValue(announcement.author?.[lang] || announcement.author);
+    // 新格式：直接按语言获取
+    const langData = announcement[lang];
+    if (!langData) {
+      return {
+        success: false,
+        error: 'Language not found',
+        message: `Language ${lang} not found for version ${version}`
+      };
+    }
 
     return {
       success: true,
       data: {
-        title: title || '',
-        content: contentText || '',
-        author: author || ''
-      },
-      lastUpdated: new Date().toISOString()
+        title: langData.title || '',
+        content: langData.content || '',
+        author: langData.author || ''
+      }
     };
   } catch (error) {
     return {

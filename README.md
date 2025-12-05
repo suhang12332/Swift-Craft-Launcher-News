@@ -10,19 +10,23 @@
 
 例如：`0.3.1-beta.json`、`1.0.0.json`
 
-JSON 格式（支持22种语言的 Xcode 字符串本地化格式）：
+JSON 格式（支持22种语言）：
 ```json
 {
-  "title": {
-    "en": { "stringUnit": { "state": "translated", "value": "Important Notice" } },
-    "zh-Hans": { "stringUnit": { "state": "translated", "value": "重要通知" } }
+  "en": {
+    "title": "Important Notice",
+    "content": "Content",
+    "author": "Swift Craft Launcher Team"
   },
-  "content": {
-    "en": { "stringUnit": { "state": "translated", "value": "Content" } },
-    "zh-Hans": { "stringUnit": { "state": "translated", "value": "内容" } }
+  "zh-Hans": {
+    "title": "重要通知",
+    "content": "内容",
+    "author": "Swift Craft Launcher 团队"
   },
-  "author": {
-    "en": { "stringUnit": { "state": "translated", "value": "Author" } }
+  "es": {
+    "title": "Aviso importante",
+    "content": "Contenido",
+    "author": "Equipo Swift Craft Launcher"
   }
 }
 ```
