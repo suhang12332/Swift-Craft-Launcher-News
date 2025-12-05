@@ -30,6 +30,13 @@ jobs:
       - name: Generate API
         run: node scripts/generate-api.js
 
+      - name: List generated files
+        run: |
+          echo "Generated files:"
+          find api -type f | head -20
+          echo "Total files:"
+          find api -type f | wc -l
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
